@@ -1,1 +1,9 @@
+# ignore everything
+*
+# keep .gitignore tracked
+!.gitignore
+# allow directories so patterns apply in subfolders
+!*/
+# allow all .c files (root and subfolders)
 !*.c
+!**/*.c
