@@ -30,7 +30,7 @@ int main()
             {
                 for( j=0;j<n;j++)
                 {
-                    if(!visited[j]&&cost[i][j])
+                    if(!visited[j]&&cost[i][j]<min)
                     {
                         min=cost[i][j];
                         u=i;
